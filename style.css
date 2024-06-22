@@ -1,0 +1,149 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+ul{
+  list-style: none;
+}
+
+button{
+  border: 0px;
+}
+
+body{
+  background-color: #131313;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  padding: 107px 5px;
+}
+
+button{
+  background-color: #131313;
+  border: 0px;
+}
+
+img{
+  object-fit: contain;
+  display: none;
+  width: 100%;
+}
+
+.main-wrapper{
+  display: flex;
+  width: 1171px;
+  height: 552px;
+  gap: 50px;
+}
+
+.left-side-wrapper{
+  width: 442px;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 34px;
+  height: 482px;
+  margin-top: 61.5px;
+}
+
+.right-side-wrapper{
+  width: 679px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.image-wrapper{
+  width: 679px;
+  height: 482px;
+}
+
+.main__header, .info-block__header, .links__elem{
+  font-family: "Yeseva One", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #E3B873;
+}
+
+.main__header{
+  font-size: 27px;
+}
+
+.info-block__header{
+  font-size: 18px;
+}
+
+.links__elem{
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.main__paragraph, .info-block__paragraph{
+  font-family: "Nunito", sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.main__header{
+  font-size: 27px;
+}
+
+.info-block-wrapper{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  gap: 34px;
+}
+
+.info-block{
+  width: 183px;
+}
+
+.info-block__header{
+  margin-bottom: 9px;
+}
+
+.slider-buttons{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin-top: auto;
+}
+
+.slider-buttons__slide-to-right-button{
+  rotate: 180deg;
+  margin-left: 29.5px;
+}
+
+.slider-buttons__slide-to-left-button{
+  margin-right: 29.5px;
+}
+
+.slider-buttons__rounded-button{
+  border-radius: 50%;
+  background-color: white;
+  width: 9.6px;
+  height: 9.6px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin: 0 17.5px;
+}
+
+.links {
+  display: flex;
+  gap: 60px;
+  margin-bottom: 35px;
+}
+
+.links__elem{
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.slider-buttons__slide-to-left-button, .slider-buttons__slide-to-right-button, .slider-buttons__rounded-button, .links__elem{
+  cursor: pointer;
+}
+
+.area, .city, .repair-cost, .repair-time{
+  display: none;
+}
